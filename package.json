@@ -1,0 +1,29 @@
+{
+  "name": "tm-template",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@sec-ant/gm-fetch": "^1.2.1",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0-next.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/bun": "^1.1.6",
+    "open": "^10.1.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-svelte": "^3.2.6",
+    "svelte": "^5.0.0-next.223",
+    "svelte-check": "^3.8.5",
+    "svelte-preprocess": "^5.1.4",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4",
+    "unocss": "^0.62.2",
+    "vite": "^5.4.1",
+    "vite-plugin-monkey": "link:vite-plugin-monkey"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite --no-open",
+    "build": "vite build --watch",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "type": "module"
+}
