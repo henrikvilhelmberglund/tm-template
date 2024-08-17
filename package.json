@@ -20,7 +20,8 @@
   },
   "private": true,
   "scripts": {
-    "dev": "vite --no-open",
+    "dev": "vite",
+    "require": "msedge 'C:\\Github\\Tampermonkey\\public\\tm-template\\require.user.js'",
     "build": "vite build --watch",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
