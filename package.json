@@ -20,7 +20,8 @@
   },
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "bun createRequireFile.ts",
+    "postdev": "msedge 'C:\\Github\\Tampermonkey\\public\\tm-template\\require.user.js'",
     "require": "msedge 'C:\\Github\\Tampermonkey\\public\\tm-template\\require.user.js'",
     "build": "vite build --watch",
     "preview": "vite preview",
