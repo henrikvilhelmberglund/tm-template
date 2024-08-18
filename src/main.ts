@@ -5,9 +5,13 @@ import "uno.css";
 
 const app = mount(App, {
 	target: (() => {
-		const app = document.createElement("div");
-		document.body.append(app);
-		return app;
+		if (!document.querySelector("#app")) {
+			const app = document.createElement("div");
+			document.body.append(app);
+			return app;
+		} else {
+			return document.querySelector("#app");
+		}
 	})()
 });
 

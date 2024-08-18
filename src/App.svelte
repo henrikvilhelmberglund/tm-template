@@ -18,7 +18,7 @@
 	}, 2000);
 </script>
 
-<!-- <div class="bg-green-500 size-48 absolute top-0 left-0">HELLO</div> -->
+<div class="bg-green-500 size-48 absolute top-0 left-0">HELLO</div>
 
 <style>
 </style>
