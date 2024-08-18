@@ -1,6 +1,6 @@
 {
   "name": "tm-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
     "@sec-ant/gm-fetch": "^1.2.1",
     "@sveltejs/vite-plugin-svelte": "^4.0.0-next.6",

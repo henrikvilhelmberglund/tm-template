@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.1](https://github.com/henrikvilhelmberglund/tm-template/compare/v0.1.0...v0.1.1) (2024-08-18)
+
+
+### Bug Fixes
+
+* add predev script to build the actual script if /dist does not exist yet, only runs once ([27f3dbc](https://github.com/henrikvilhelmberglund/tm-template/commit/27f3dbc9e8f19541f911957ea32d422c577a63d9))
+
 ## 0.1.0 (2024-08-18)
 
 
