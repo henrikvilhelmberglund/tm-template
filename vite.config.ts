@@ -14,7 +14,6 @@ export default defineConfig({
 			entry: "src/main.ts",
 			server: {
 				prefix: false,
-				closePreviewAutomatically: true
 			},
 			userscript: {
 				...metadata

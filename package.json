@@ -16,7 +16,7 @@
     "typescript": "^5.5.4",
     "unocss": "^0.62.2",
     "vite": "^5.4.1",
-    "vite-plugin-monkey": "link:vite-plugin-monkey"
+    "vite-plugin-monkey": "^4.0.6"
   },
   "private": true,
   "scripts": {
