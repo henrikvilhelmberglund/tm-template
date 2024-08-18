@@ -5,6 +5,6 @@
 // @author     monkey
 // @description Load script
 // @icon       https://vitejs.dev/logo.svg
-// @match      https://x.com/home
+// @match      https://www.google.com/
 // @require    file:///C:\Github\Tampermonkey\public\tm-template\dist\tm-template.user.js
 // ==/UserScript==

@@ -10,7 +10,7 @@ It creates a require script that loads the script locally so you don't have to u
 
 1. Name the script in package.json and add match/grants in metadata.ts.
 
-2. Run `npm run dev` to create the require script and install it in your browser of choice (change the browser in package.json if necessary).
+2. Run `npm run dev` to create the require script and install it in your browser of choice (change the browser in package.json if necessary). **Note:** remember to do this again when you change `metadata.ts`.
 
 3. Run `npm run build` to run the Vite build in watch mode.
 
