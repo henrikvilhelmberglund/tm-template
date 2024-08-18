@@ -23,8 +23,8 @@
   "scripts": {
     "dev": "bun createRequireFile.ts",
     "style": "vite",
-    "postdev": "msedge 'C:\\Github\\Tampermonkey\\public\\tm-template\\require.user.js'",
-    "require": "msedge 'C:\\Github\\Tampermonkey\\public\\tm-template\\require.user.js'",
+    "postdev": "msedge $(pwd)/require.user.js",
+    "require": "msedge $(pwd)/require.user.js",
     "build": "vite build --watch",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
